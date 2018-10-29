@@ -16,6 +16,11 @@ export default function Nav() {
                             Cart
                         </NavLink>
                     </li>
+                    <li className="nav-item">                        
+                        <NavLink className="nav-link" activeClassName='active' to='/order'>
+                            Order
+                        </NavLink>
+                    </li>
                 </ul>            
             </div>
         </nav>

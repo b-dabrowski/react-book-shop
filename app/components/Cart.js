@@ -6,7 +6,10 @@ class Cart extends React.Component {
             <div className='container'>
                 <h1>
                     Cart
-                </h1>                
+                </h1>          
+                <p>
+                    You have nothing in yours cart.    
+                </p>      
             </div>
         );
     }
